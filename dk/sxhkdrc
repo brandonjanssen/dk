@@ -7,11 +7,11 @@ super + Return
 
 #### BROWSER
 super + w
-    brave-browser
+    brave
 
 ###### FILE MANAGER
 super + t
-    pcmanfm
+    thunar
 
 ##### FILE MANAGER
 super + shift + t
@@ -34,11 +34,11 @@ super + shift + d
     telegram-desktop
 ##### SOCIAL
 super + shift + s
-    skypeforlinux 
+    skypeforlinux
 
 ##### WALLPAPER
 super + r
-   feh --randomize --bg-fill /home/dmne/.config/variety/Favorites 
+   feh --randomize --bg-fill /home/dmne/Pictures/background/
 
 ##### LAUNCHER
 super + space
@@ -46,7 +46,11 @@ super + space
 
 ##### LOGOUT
 super + x
-    lxsession-logout
+    archlinux-logout
+
+### LOCKSCREEN
+super + shift + x
+   betterlockscreen -l blur
 
 ##### SCRATCHPADS #####################################
 ctrl + 1
@@ -59,6 +63,16 @@ ctrl + 4
     bashmount.sh
 ctrl + 9
     scratchmoc.sh
+
+### VOLUME
+alt + bracketright
+   wpctl set-volume  -l 1.0 @DEFAULT_AUDIO_SINK@ 2%+
+
+alt + bracketleft
+   wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-
+
+alt + equal
+   wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 
 
 # make sxhkd reload its configuration files:

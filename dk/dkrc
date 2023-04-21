@@ -22,19 +22,21 @@ fi
 
 # (re)load sxhkd for keybinds
 /home/dmne/.config/polybar/launch.sh
-#picom &
-picom --experimental-backend &
-feh --randomize --bg-fill /home/dmne/Pictures/background &
+picom &
+# picom --experimental-backend &
 blueman-applet &
 nm-applet &
-pasystray &
+#pasystray &
 # pasystray --notify=all instead &
 #cbatticon &
 #variety &
 dunst &
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 xmodmap  -e 'clear lock'
-/usr/bin/lxpolkit &
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xbindkeys -f ~/.xbindkeysrc
+# /usr/bin/lxpolkit &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+feh --randomize --bg-fill /home/dmne/Pictures/background &
 
 # adjust border widths based on the DPI of the monitor
 px=$(xrandr | grep ' connected' | tail -n1 | grep -o '[0-9]\+x[0-9]\+' | cut -d'x' -f2)
@@ -69,17 +71,17 @@ fi
 	dkcmd set ws=10 layout=grid pad left=200 right=200 top=100 bottom=100 gap=50
 
 	# change workspace names (default: number == name)
-	# dkcmd set \
-	# 	ws=1  name="edit" \
-	# 	ws=2  name="web" \
-	# 	ws=3  name="😀" \
-	# 	ws=4  name="😠" \
-	# 	ws=5  name="5" \
-	# 	ws=6  name="6" \
-	# 	ws=7  name="7" \
-	# 	ws=8  name="8" \
-	# 	ws=9  name="9" \
-	# 	ws=10 name="10"
+	dkcmd set \
+		ws=1  name="" \
+		ws=2  name="" \
+		ws=3  name="" \
+		ws=4  name="" \
+		ws=5  name="" \
+		ws=6  name="" \
+		ws=7  name="" \
+		ws=8  name="" \
+		ws=9  name="" \
+		ws=10 name=""
 
 	# enable static workspaces and assign them to monitors (only relevant for multiple monitors)
 	# aside -
@@ -162,11 +164,11 @@ fi
 
 	# open window(s) with a specific geometry and coordinates (floating only!)
 	dkcmd rule class="^google-chrome$" title="^open files$" float=true w=1280 h=720
-	dkcmd rule class="^scratchnnn" float=true w=500 h=620
-	dkcmd rule class="^scratchterm" float=true x=20 y=100 w=1280 h=720
-	dkcmd rule class="^scratchpulse" float=true w=1000 h=320
-	dkcmd rule class="^scmoc" float=true w=1000 h=500
-	dkcmd rule class="^bm" float=true w=1000 h=500
+	dkcmd rule class="^scratchnnn" float=true x=center w=500 h=620
+	dkcmd rule class="^scratchterm" float=true x=center w=1000 h=320
+	dkcmd rule class="^scratchpulse" float=true x=center w=1000 h=320
+	dkcmd rule class="^scmoc" float=true x=center w=1000 h=500
+	dkcmd rule class="^bm" float=true x=center w=750 h=500
 
 	# open window(s) with sticky and floating enabled to view on all workspaces.
 	# dkcmd rule class="^stickyterm$" stick=true float=true w=1280 h=720
