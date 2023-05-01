@@ -7,8 +7,8 @@ set -U fish_user_paths $HOME/.local/bin $HOME/Applications $fish_user_paths
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
-set EDITOR "micro ''"                 # $EDITOR use Emacs in terminal
-set VISUAL "micro"              # $VISUAL use Emacs in GUI mode
+set EDITOR "nano ''"                 # $EDITOR use Emacs in terminal
+set VISUAL "code"              # $VISUAL use Emacs in GUI mode
 
 ### SET MANPAGER
 ### Uncomment only one of these!
