@@ -1,46 +1,33 @@
+brandon-janssen.atlassian.net   this for jira
+
+
+
 OUTCOME: Dead Air
-PH:     +12403689307
+PH:        +15013261888
 REASON: dead air
 
 Outcome:Already has Atty
 Ph:  +13049522565
 Reason: cx already signed up
 
-
-OUTCOME: Did Not Apply
-PH:     +12483192361 
-REASON: cx didn't have a diagnosis on the list
-
-Outcome:DID NOT LIVE ,WORK,SERVE
-Ph:   +17022804091 
-Reason:DID NOT LIVE ,WORK,SERVE AT CAMP LEJEUNE
-
 OUTCOME: SUCCESS
-PH:     +15406327063
-REASON: CX CONNECTED TO Diabetic
-
-OUTCOME: SUCCESS
-PH:             +16028628351
+PH:           +14234836758
 REASON: CX and LA connected
 
-Outcome:DQ BAD INS
-Ph:     +12703771796
-Reason: no out of network benifits medicade
-
 OUTCOME: Callback Scheduled
-PH:       +12152893171 
+PH:           +12109868919
 REASON: cx is interested cb set
 
-Outcome: Dropped CB now
-Phone:    +12394402482 
-Reason: CB now
+Outcome: Dropped Call
+Phone:     +19367762094 
+Reason: call dropped
 
 OUTCOME: HUNG UP
-PH:   +13139127353
-REASON: CX hu  |cb set
+PH:         +18654096504
+REASON: CX hu 
 
 Outcome: LV
-Phone:    +16787916251
+Phone:          e+16063673990 
 Reason: routed to VM
 
 Outcome: AM
@@ -48,128 +35,106 @@ Phone:      +18322467276
 Reason: Answering Machine
 
 Outcome: AM
-Phone:      +12542833006 
+Phone:     +17042441698
 Reason: vm full
 
 Outcome: AM
-Phone:   +15743526321
+Phone:       +12316551881 
 Reason: vm not set up
 
 Outcome:NI
-Ph:       +12522959246
+Ph:        +19313165941
 Reason:CX NI in  insurance
 
 Outcome:NI/upset
-Ph:   +16083861596
+Ph:   +19047592307
 Reason:CX NI not INTERESTED and slightly upset
 
 Outcome:TRANSFER FAILED / HU
-Ph:   +18329748881 
+Ph:   +19312878470
 Reason:CX HU went silent
 
 Outcome:TRANSFER FAILED / set callback
-Ph:      +18438602827 
+Ph:            +15619451300 
 Reason:CX no LA available
 
 Outcome:ALREADY ENROLLED
-Ph:      +16788153958 
+Ph:      +14233818030
 Reason:CX all ready has insurance
 
-# ALL READY HAS GOVERMENT BENIFTS ###########
-# ALL READY HAS GOVERMENT BENIFTS ###########
 Outcome:DQ GOVT INSURANCE
-Ph:      +19017349104 
+Ph:        +16308355265
 Reason:GOVT INSURANCE foodstamps
 
-# CANT AFFORD    ##########################
-# CANT AFFORD    ##########################
 Outcome:DQ CAN'T AFFORD
-Ph:  +13364378366 
+Ph:    +12142141397
 Reason:BELOW 13K
 
-# DISQUALFIFED HAND OFF FRONTIER #############
-# DISQUALFIFED HAND OFF FRONTIER #############
+Outcome:DQ CAN'T AFFORD
+Ph:     +15614858307
+Reason: no work or income
+
+Outcome:DQ income to high
+Ph:    +18303194050
+Reason:above 50K
+
 Outcome:DQ HANDOFF
-Ph:     +16019914657
+Ph:      +15392409821
 Reason:FRONTER TALKING / ADVISED / CB      OR
 AGENTS TAKING CALLS IN THE BACKGROUND
 
-# PANKER  ################################
-# PANKER  ################################
 Outcome:PRANK CALLER
-Ph:   +19013259918
+Ph:   +19895222172 
 Reason:JUST PLAYING AROUND
 
-# ADD To DO NOT CALL LIST ####################
-# ADD To DO NOT CALL LIST ####################
 Outcome:DNC
-Ph:    +16019878978
+Ph:    +12816703665
 Reason:PROFANITY  OR CX REQ
 
-# ADD To DO NOT CALL LIST ####################
-# ADD To DO NOT CALL LIST ####################
 Outcome:DNC
-Ph:   +18033472341 
-Reason:cx no more calls please
+Ph:     +13465827219 
+Reason: cx already xfered and second time no agents availble
 
-# COACHED CALL  ###########################
-# COACHED CALL  ###########################
+Outcome: DNC  
+Ph:        +16623034439       
+REASON: 2nd unsuccessful transfer
+
+OUTCOME: DNC
+PH:   +18129000936
+REASON: Does not want calls
+
 Outcome:DQ COACHED CALL
-Ph:  +18709401243 
+Ph:          +19548687613
 Reason: BEING COACHED
 CALLED AGAIN AND GAVE DIFFERENT INFO TO QUALIFY
 
-# WOULD NOT AGREE TO DISCLAMER  ##############
-# WOULD NOT AGREE TO DISCLAMER  ##############
 Outcome:TCPA FAIL
-Ph:   +15203325495
+Ph:   +18044501353
 Reason:NO TO THE DISCLAIMER
 DID NOT SAY A CLEAR YES TO THE DISCLAIMER
 
-# INCENTIVIZED  #############################
-# INCENTIVIZED  #############################
 Outcome:DQ INCENTIVIZED
-Ph: +19187152757
+Ph:           +12169310130
 Reason: WAS PROMISED SOMETHING (MONEY OR GIFT CARDS)
 
-# DQ BAD STATE  #############################
-# DQ BAD STATE  #############################
 OUTCOME: dq bad state
 PH:    +18333704442
 REASON: no avail LA /CT 4x
 
-# BAD CONNECTION ###########################
-# BAD CONNECTION ###########################
 OUTCOME: dq bad connection
-PH:   +19729401666 
+PH:    +17622108273
 REASON: lots of stati
 
-#   NO ENGLISH     #############################
-#   NO ENGLISH     #############################
 OUTCOME:Does not speak English
 PH:  +14053941419
-REASON:speak spanish
+REASON:speak spanis
 
-
-# NUMBER NOT IN SERVICE #######################
-OUTCOME: number not in service
-PH#:13347967561
-REASON:
-
-# ADD TO DNC ################################
-OUTCOME: ADD TO DNC
-PH:    +12394402482 
-REASON: Does not want calls
-
-# DID NOT APPLY  ##############################
 OUTCOME: did not apply
 Ph:   +13218328788
 Reason: or wrong number
 
-# WRONG NUMBER #############################
-# WRONG NUMBER #############################
 OUTCOME: Wrong number
-PH:      +13526446862 
+PH:      +16827192233 
 REASON: Fronters Number
 
 outcome: tcpa fail
@@ -180,26 +145,6 @@ outcome: dq age
 ph:     +12563086615 
 reason: born in the yr. 1952
 
-outcome: dq bad ins
-ph:     +17542046149 
-reason: medicaid
-
-outcome: dq no cell phone
-ph:     +16012328035
-reason: does not want to get a cell phone
-
-outcome: dq bad diagnois
-ph:    +18043197775 
-reason: no diabetes or  hypertension
-
-DQ - Not using Monitor or BP cuff
-ph:   +16176902200 
-reason: not monitoring their self
-
-outcome: dq mental issue
-ph:   +13854988648
-reason: incoherent
-
-
-+17736101735
- +17087332868
+Outcome: dq mental issues
+Ph:      +13148533492 
+Reason: unable to understand the cx
